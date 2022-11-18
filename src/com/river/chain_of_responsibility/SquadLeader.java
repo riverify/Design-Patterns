@@ -3,9 +3,7 @@ package com.river.chain_of_responsibility;
 /**
  * @Author River
  * @Date 2022/11/18 14:36
- **/
-
-/**
+ *
  * SquadLeader(班长)
  */
 public class SquadLeader extends Officer {

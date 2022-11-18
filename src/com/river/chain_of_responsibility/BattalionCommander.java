@@ -3,6 +3,8 @@ package com.river.chain_of_responsibility;
 /**
  * @Author River
  * @Date 2022/11/18 14:43
+ *
+ * BattalionCommander(连长)
  **/
 public class BattalionCommander extends Officer {
 
