@@ -8,9 +8,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53e79224-e65d-45d3-859e-92592c990953" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/river/test/clone/Params.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/river/test/clone/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/river/test/clone/Wife.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/adepter/Adeptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/adepter/Adepter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/adepter/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/adepter/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/bright/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/bright/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/bright/Huawei.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/bright/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/bright/TouchPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/chain/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/chain/JavaProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/chain/Problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/chain/RustProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/decorator/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/decorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/decorator/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/decorator/Heli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/decorator/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/decorator/Transform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/proxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/proxy/IMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/proxy/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/proxy/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/strategy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/strategy/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/strategy/KidDishcount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/strategy/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/river/test/strategy/VIPdiscount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,22 +81,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;cn.yiiguxing.plugin.translate&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/river/code/IdeaProjects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.river.test.strategy" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -82,13 +111,13 @@
       <recent name="com.river.memento" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test1">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.test.abstract_factory.Demo" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.test.strategy.Client" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.test.factory.*" />
+          <option name="PATTERN" value="com.river.test.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factory (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.test.Factory" />
+    <configuration name="com.river.test.adepter.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.test.adepter.Client" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.test.*" />
+          <option name="PATTERN" value="com.river.test.adepter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factory (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.test.Factory" />
+    <configuration name="com.river.test.bright.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.test.bright.Client" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.test.*" />
+          <option name="PATTERN" value="com.river.test.bright.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.test.factory.Factory" />
+    <configuration name="com.river.test.chain.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.test.chain.Client" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.test.factory.*" />
+          <option name="PATTERN" value="com.river.test.chain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,38 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.test.factory.Factory" />
+    <configuration name="com.river.test.proxy.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.test.proxy.Client" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.test.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.test.clone.Test1" />
-      <module name="Design-Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.river.test.clone.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.river.test.builder.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.test.builder.Demo" />
-      <module name="Design-Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.river.test.builder.*" />
+          <option name="PATTERN" value="com.river.test.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.com.river.test.builder.Demo" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Factory (2)" />
-        <item itemvalue="Application.Factory" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.com.river.test.chain.Client" />
+        <item itemvalue="Application.com.river.test.adepter.Client" />
+        <item itemvalue="Application.com.river.test.bright.Client" />
+        <item itemvalue="Application.com.river.test.proxy.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +221,14 @@
       <workItem from="1669883945973" duration="4842000" />
       <workItem from="1676113765880" duration="4531000" />
       <workItem from="1676171733494" duration="599000" />
-      <workItem from="1676190854796" duration="3357000" />
+      <workItem from="1676190854796" duration="5294000" />
+      <workItem from="1676210980802" duration="1255000" />
+      <workItem from="1676212374158" duration="17000" />
+      <workItem from="1676305094191" duration="744000" />
+      <workItem from="1676330220634" duration="600000" />
+      <workItem from="1676362341136" duration="58000" />
+      <workItem from="1676362406898" duration="60000" />
+      <workItem from="1676390059551" duration="7528000" />
     </task>
     <task id="LOCAL-00001" summary="解释器模式">
       <created>1669275188592</created>
@@ -262,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676192306437</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="clone">
+      <created>1676194292136</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676194292136</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +290,8 @@
     <MESSAGE value="解释器模式" />
     <MESSAGE value="中介者模式" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="clone" />
+    <option name="LAST_COMMIT_MESSAGE" value="clone" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -282,7 +300,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/river/memento/PutChess.java</url>
           <line>17</line>
-          <properties class="com.river.memento.PutChess" method="start">
+          <properties class="com.river.memento.PutChess">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
